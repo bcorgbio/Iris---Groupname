@@ -8,6 +8,10 @@ setwd("~/Desktop/education/senior year/BIOL3140/Projects/Vidal_Project1")
 # 1
 dat <- read.csv("scales.csv")
 
+
+# 1
+dat <- read.csv("scales.csv")
+
 # 2 
 sapply(dat,class)
 
