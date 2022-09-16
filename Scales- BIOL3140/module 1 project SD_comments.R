@@ -1,7 +1,7 @@
 library(ggplot2)
 library(tidyverse)
 setwd("~/Downloads/Scales- BIOL3140")
-#CPK: No need set the working directory when working in an R project.
+#CPK: No need set the working directory when working in an R project. You were also tasked with committing and pushing your script/figures to the repo through git, but this directory was uploaded through the github site.[-1]
 
 dat <- read.csv("scales.csv")
 
@@ -68,6 +68,6 @@ for(i in species){
 dev.off()
 list.files(pattern=".pdf")
 setwd("~/Downloads/Scales- BIOL3140")
+#CPK this file need to be name with your name. [-1]
 
-
-#CPK: We should talk, Samantha. Doesn't seem you understood the thrust of the project and how to address the prompts, i.e., you just paste a bunch of code and modified a few things.
+#CPK: We should talk, Samantha. Doesn't seem you understood the thrust of the project and how to address the prompts, i.e., you just paste a bunch of code and modified a few things. And gitting, too.
